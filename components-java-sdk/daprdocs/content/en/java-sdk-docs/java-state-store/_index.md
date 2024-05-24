@@ -50,19 +50,6 @@ public class StateStoreGrpcComponentWrapper extends StateStoreGrpc.StateStoreImp
     // Called to initialize the component with its configured metadata
   }
 
-
-  @Override
-  public void features(final ComponentProtos.FeaturesRequest request,
-                       final StreamObserver<FeaturesResponse> responseObserver) {
-    // ??
-  }
-
-  @Override
-  public void ping(final ComponentProtos.PingRequest request,
-                   final StreamObserver<ComponentProtos.PingResponse> responseObserver) {
-    // Until cancelled, checks the store for messages and delivers them to the Dapr runtime
-  }
-
   @Override
   public void delete(final DeleteRequest request, final StreamObserver<State.DeleteResponse> responseObserver) {
     // Delete the requested key from the state store
