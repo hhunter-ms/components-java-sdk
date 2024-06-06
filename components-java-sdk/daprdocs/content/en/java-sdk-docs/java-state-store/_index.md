@@ -155,6 +155,3 @@ The Dapr runtime has additional handling of certain error conditions resulting f
 
 ## Next steps
 - [Advanced techniques with the pluggable components Java SDK]({{< ref java-advanced >}})
-- Learn more about implementing:
-  - [Bindings]({{< ref java-bindings >}})
-  - [Pub/sub]({{< ref java-pub-sub >}})

@@ -92,8 +92,6 @@ Only a single component of each type can be registered with an individual servic
 
 ## Implement and register components
 
- - [Implementing an input/output binding component]({{< ref java-bindings >}})
- - [Implementing a pub-sub component]({{< ref java-pub-sub >}})
  - [Implementing a state store component]({{< ref java-state-store >}})
 
 ## Test components locally
@@ -147,6 +145,4 @@ mvn deploy
 
 - [Learn advanced steps for the Pluggable Component Java SDK]({{< ref "java-advanced" >}})
 - Learn more about using the Pluggable Component Java SDK for:
-  - [Bindings]({{< ref "java-bindings" >}})
-  - [Pub/sub]({{< ref "java-pub-sub" >}})
   - [State store]({{< ref "java-state-store" >}})

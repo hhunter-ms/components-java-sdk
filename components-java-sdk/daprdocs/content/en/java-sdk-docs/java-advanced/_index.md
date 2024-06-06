@@ -82,6 +82,4 @@ spec:
 
 ## Next steps
 - Learn more about implementing:
-  - [Bindings]({{< ref java-bindings >}})
   - [State]({{< ref java-state-store >}})
-  - [Pub/sub]({{< ref java-pub-sub >}})
